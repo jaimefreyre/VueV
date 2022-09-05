@@ -87,6 +87,17 @@ export default new Vuex.Store({
         console.log(error)
       }
     },
+    async fetchDataciudades({commit}) {
+      try {
+        const res = await fetch('./apiciudades.json')
+        const productos = await res.json()
+        commit('setProductos', productos)
+        console.log(productos);
+        return productos;
+      } catch (error) {
+        console.log(error)
+      }
+    },
     addToCart({ commit }, product){
       console.log('suma');
       commit(types.ADD_TO_CART, {
@@ -99,6 +110,7 @@ export default new Vuex.Store({
       commit(types.REST_TO_CART, {
         id: product.id
       })
-    }
+    },
+    
   }
 })

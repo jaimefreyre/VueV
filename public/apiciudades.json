@@ -1,0 +1,84 @@
+[
+  {
+    "id": "1",
+    "ciudad": "Buenos Aires",
+    "img": "https://picsum.photos/id/50/600",
+    "establecimientos": [
+      {
+        "id":1,
+        "nombre": "Garzamora",
+        "direccion": "cañuelas 2234",
+        "fotografias": "",
+        "estrellas": 5,
+        "menu": [
+          {"plato":"Fideos", "precio": 10},
+          {"plato":"Carne", "precio": 10},
+          {"plato":"Pizza", "precio": 10} ]
+      },
+      {
+        "id":2,
+        "nombre": "Garzamora 2",
+        "direccion": "cañuelas 2234",
+        "fotografias": "",
+        "estrellas": 4,
+        "menu": [
+          {"plato":"Fideos", "precio": 10},
+          {"plato":"Carne", "precio": 10},
+          {"plato":"Pizza", "precio": 10} ]
+      },
+      {
+        "id":3,
+        "nombre": "Garzamora 3",
+        "direccion": "cañuelas 2234",
+        "fotografias": "",
+        "estrellas": 5,
+        "menu": [
+          {"plato":"Fideos", "precio": 10},
+          {"plato":"Carne", "precio": 10},
+          {"plato":"Pizza", "precio": 10} ]
+      }
+  
+    ]
+  },
+  {
+    "id": "1",
+    "ciudad": "Paris",
+    "img": "https://picsum.photos/id/50/600",
+    "establecimientos": [
+      {
+        "id":1,
+        "nombre": "Garzamora",
+        "direccion": "cañuelas 2234",
+        "fotografias": "",
+        "estrellas": 5,
+        "menu": [
+          {"plato":"Fideos", "precio": 10},
+          {"plato":"Carne", "precio": 10},
+          {"plato":"Pizza", "precio": 10} ]
+      },
+      {
+        "id":2,
+        "nombre": "Garzamora 2",
+        "direccion": "cañuelas 2234",
+        "fotografias": "",
+        "estrellas": 4,
+        "menu": [
+          {"plato":"Fideos", "precio": 10},
+          {"plato":"Carne", "precio": 10},
+          {"plato":"Pizza", "precio": 10} ]
+      },
+      {
+        "id":3,
+        "nombre": "Garzamora 3",
+        "direccion": "cañuelas 2234",
+        "fotografias": "",
+        "estrellas": 5,
+        "menu": [
+          {"plato":"Fideos", "precio": 10},
+          {"plato":"Carne", "precio": 10},
+          {"plato":"Pizza", "precio": 10} ]
+      }
+  
+    ]
+  }
+]
